@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "build active file with MinGW",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}"
+            ]
+        }
+    ]
+}
