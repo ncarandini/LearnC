@@ -114,3 +114,7 @@ Per la versione ottimizzata, bisogna utilizzare le variabili che possono essere 
     ]
 }
 ```
+
+### Links
+
+[C Tutorial](https://www.tutorialspoint.com/cprogramming/index.htm)
