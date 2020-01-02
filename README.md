@@ -1,5 +1,5 @@
-# Learn C
-Use VS Code to learn C
+# Learn C using VS Code
+Download and setup instructions plus some links to online courses
 
 ### Prerequisiti
 Per utilizzare VS Code come ambiente di sviluppo per studiare il linguaggio C occorre prima di tutto:
