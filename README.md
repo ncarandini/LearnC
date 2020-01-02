@@ -114,7 +114,7 @@ Per la versione ottimizzata, bisogna utilizzare le variabili che possono essere 
     ]
 }
 ```
-Ulteriori informazioni su come usare VS Code per fare il debugging le puoi trovare nella [documentazione ufficiale](https://code.visualstudio.com/docs/cpp/config-mingw).
+Ulteriori informazioni su come usare VS Code per fare il debugging si possono trovare nella [documentazione ufficiale](https://code.visualstudio.com/docs/cpp/config-mingw#_start-a-debugging-session).
 
 ### Learning links
 
