@@ -29,7 +29,7 @@ Per utilizzare VS Code come ambiente di sviluppo per studiare il linguaggio C oc
 Per usufruire delle funzionalità di Intellisense e poter eseguire e fare il debugging di un programma in VS Code, è indispensabile definire le proprietà del progetto, il task di compilazione e le operazioni di lancio.
 Di solito tali file vengono creati in una cartella ".vscode" che si trova nella cartella di progetto che contiene il programma. Così facendo però, per ogni nuovo programma occorre replicare questi file e modificare i comandi per compilare e lanciare quello specifico programma. Per evitare questa "seccatura", è possibile utilizzare un'unica cartella ".vscode" posta in una cartella che contiene i diversi programmi. Di seguito un'illustrazione che mostra le due diverse ipotesi, standard e ottimizzata:
 
-![image](https://user-images.githubusercontent.com/139274/71647412-09222b80-2cf7-11ea-81d9-67efba108255.png)
+![image](https://user-images.githubusercontent.com/139274/71647920-51444c80-2cfd-11ea-8361-2af130d2e085.png)
 
 Per la versione ottimizzata, bisogna utilizzare le variabili che possono essere usate all'interno delle stringhe, in modo da ottenere dei comandi che si adattano automaticamente al nome del file attivo al momento dell'esecuzione del comando di compilazione e debugging:
 
