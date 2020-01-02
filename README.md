@@ -114,7 +114,7 @@ Per la versione ottimizzata, bisogna utilizzare le variabili che possono essere 
     ]
 }
 ```
-More info on [Using Mingw-w64 in VS Code](https://code.visualstudio.com/docs/cpp/config-mingw)
+Ulteriori informazioni su come usare VS Code per fare il debugging le puoi trovare nella [documentazione ufficiale](https://code.visualstudio.com/docs/cpp/config-mingw).
 
 ### Learning links
 
