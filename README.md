@@ -114,7 +114,8 @@ Per la versione ottimizzata, bisogna utilizzare le variabili che possono essere 
     ]
 }
 ```
+More info on [Using Mingw-w64 in VS Code](https://code.visualstudio.com/docs/cpp/config-mingw)
 
-### Links
+### Learning links
 
 [C Tutorial](https://www.tutorialspoint.com/cprogramming/index.htm)
