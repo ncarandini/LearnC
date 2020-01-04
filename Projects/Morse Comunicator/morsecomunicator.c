@@ -8,11 +8,10 @@ void transmitMorseWordSeparation();
 
 int main() {
 
-    char *message = "Hello World!";
-    char *currentCharacter = NULL;
+    char message[] = "Hello World!";
+    char *currentCharacter = message;
     char *morseCode = NULL;
 
-    currentCharacter = message;
     printf("\n%s\n", message);
 
     int prependCharSeparation = 0;
