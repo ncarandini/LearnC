@@ -119,7 +119,7 @@ char* getMorseCodeFromSymbol(char *symbol) {
 void transmitMorseCode(int prependCharSeparationFlag, char *morseCode) {
 
     if (prependCharSeparationFlag) {
-        printf("|");
+        printf(" | ");
     }
 
     printf("%s", morseCode);
@@ -128,6 +128,6 @@ void transmitMorseCode(int prependCharSeparationFlag, char *morseCode) {
 
 void transmitMorseWordSeparation() {
 
-    printf("|||||||");
+    printf(" ||| ");
 
 }
