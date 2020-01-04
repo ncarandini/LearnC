@@ -101,10 +101,10 @@ char* getMorseCodeFromSymbol(char *symbol) {
         {"SN", "...-."},
     };
 
-    static char *result;
+    static char *result = NULL;
 
     // Convert symbol to upper
-    int i;
+    int i = 0;
     for (i = 0; symbol[i]!='\0'; i++){
         if(symbol[i] >= 'a' && symbol[i] <= 'z') {
          symbol[i] = symbol[i] -32;
