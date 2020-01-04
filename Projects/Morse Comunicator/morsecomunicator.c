@@ -9,8 +9,8 @@ void transmitMorseWordSeparation();
 int main() {
 
     char *message = "Hello World!";
-    char *currentCharacter;
-    char *morseCode;
+    char *currentCharacter = NULL;
+    char *morseCode = NULL;
 
     currentCharacter = message;
     printf("\n%s\n", message);
@@ -40,7 +40,7 @@ char* getMorseCodeFromCharacter(char character) {
 
 char* getMorseCodeFromSymbol(char *symbol) {
 
-    const int MORSE_TABLE_LEN = 50;
+    const int MORSE_TABLE_LEN = 57;
     char *morseTable[][2] = {
         {"A", ".-"},
         {"B", "-..."},
@@ -86,12 +86,19 @@ char* getMorseCodeFromSymbol(char *symbol) {
         {"-", "-....-"},
         {"(", "-.--."},
         {")", "-.--.-"},
-        {"DOUBLEQUOTE", ".-..-."},
+        {"\"", ".-..-."},
         {"'", ".----."},
         {"/", "-..-."},
         {"_", "..--.-"},
         {"@", ".--.-."},
-        {"!", "-.-.--"}
+        {"!", "-.-.--"},
+        {"AR", ".-.-."},
+        {"AS", ".-..."},
+        {"KA", "-.-.-"},
+        {"KN", "-.--."},
+        {"VA", "...-.-"},
+        {"BT", "-...-"},
+        {"SN", "...-."},
     };
 
     static char *result;
