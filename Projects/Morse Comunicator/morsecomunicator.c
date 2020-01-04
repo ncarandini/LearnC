@@ -8,7 +8,7 @@ void transmitMorseWordSeparation();
 
 int main() {
 
-    char message[] = "Hello World!";
+    char message[] = "Ciao Susanna!";
     char *currentCharacter = message;
     char *morseCode = NULL;
 
@@ -103,22 +103,21 @@ char* getMorseCodeFromSymbol(char *symbol) {
     static char *result = NULL;
 
     // Convert symbol to upper
-    int i = 0;
-    for (i = 0; symbol[i]!='\0'; i++){
+    for (int i = 0; symbol[i]!='\0'; i++){
         if(symbol[i] >= 'a' && symbol[i] <= 'z') {
          symbol[i] = symbol[i] -32;
         }
     }
 
     // Find symbol in the Morse table
-    int foundIndex = 0;
-    for (int i = 0; i < MORSE_TABLE_LEN && !foundIndex; i++) {
+    int foundIndex = -1;
+    for (int i = 0; i < MORSE_TABLE_LEN && foundIndex < 0; i++) {
         if (strcmp(morseTable[i][0], symbol) == 0) {
             foundIndex = i;
         }
     }
     
-    result = foundIndex ? morseTable[foundIndex][1] : NULL;
+    result = (foundIndex >= 0) ? morseTable[foundIndex][1] : NULL;
     return result;
 }
 
