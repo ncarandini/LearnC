@@ -12,7 +12,7 @@ int main() {
     printf("Average value is: %f\n", avg);
 }
 
-double getAverage( int values[], int n) {
+double getAverage( int *values, int n) {
 
     int i, sum = 0;
     double avg;
